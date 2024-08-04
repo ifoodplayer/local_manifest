@@ -22,9 +22,9 @@
  <remove-project name="device_qcom_sepolicy-legacy-um" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="me-hub" revision="spark-13.0" />
- <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="me-hub" revision="13.0" />
- <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="GhostMaster69-dev" revision="master" />
+ <project path="device/samsung/m11q" name="android_device_samsung_m11q" remote="me-hub" revision="spark-13.0" />
+ <project path="vendor/samsung/m11q" name="android_vendor_samsung_m11q" remote="me-hub" revision="13.0" />
+ <project path="kernel/samsung/m11q" name="android_kernel_samsung_m11q" remote="GhostMaster69-dev" revision="master" />
 
  <!-- Packages -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" />
