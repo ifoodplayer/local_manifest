@@ -10,7 +10,7 @@
             fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
 
-    <remote name="me-hub"
+    <remote name="trees"
             fetch="https://github.com/ifoodplayer/"
             clone-depth="1" />
 
@@ -22,9 +22,9 @@
  <remove-project name="device_qcom_sepolicy-legacy-um" />
 
  <!-- Trees -->
- <project path="device/samsung/m11q" name="android_device_samsung_m11q" remote="me-hub" revision="lineage-17.1" />
- <project path="vendor/samsung/m11q" name="android_vendor_samsung_m11q" remote="me-hub" revision="lineage-17.1" />
- <project path="kernel/samsung/m11q" name="android_kernel_samsung_m11q" remote="me-hub" revision="lineage-17.1" />
+ <project path="device/samsung/m11q" name="android_device_samsung_m11q" remote="trees" revision="lineage-17.1" />
+ <project path="vendor/samsung/m11q" name="android_vendor_samsung_m11q" remote="trees" revision="lineage-17.1" />
+ <project path="kernel/samsung/m11q" name="android_kernel_samsung_m11q" remote="trees" revision="lineage-17.1" />
 
  <!-- Packages -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" />
